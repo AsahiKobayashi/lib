@@ -6,7 +6,7 @@
 > 集合Sの任意の元 a に対し　( a op e ) = ( e op a ) を満たすeを定義
 
 ## 実装例（加算）
-'''
+```
 class AddMonoid implements Monoid<Integer> {
     @Override
     public Integer e() {
@@ -17,4 +17,4 @@ class AddMonoid implements Monoid<Integer> {
         return a + b ;
     }
 }
-'''
+```
