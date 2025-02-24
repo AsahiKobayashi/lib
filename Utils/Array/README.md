@@ -1,5 +1,5 @@
 # ArraysUtil
-## swap
+## swap(array 、left , right)
 > 配列の要素を交換（0-indexed）
 ```
 int [] array = new int[]{1,2,3};
