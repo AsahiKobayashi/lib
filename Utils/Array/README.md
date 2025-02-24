@@ -1,1 +1,8 @@
-これは `System.out.println("Hello, World!");` のように書けます。
+# ArraysUtil
+
+## swap
+> 配列の要素を交換
+```
+int [] array = new int[]{1,2,3};
+ArraysUtil.swap(array , 0 , 1);
+```
