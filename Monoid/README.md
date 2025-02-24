@@ -8,16 +8,13 @@
 ## 実装例（加算）
 '''
 class AddMonoid implements Monoid<Integer> {
-
     @Override
     public Integer e() {
         return 0 ;
     }
-
     @Override
     public Integer op(Integer a, Integer b) {
         return a + b ;
     }
-
 }
 '''
