@@ -1,1 +1,1 @@
-' swap(1,2)
+これは `System.out.println("Hello, World!");` のように書けます。
