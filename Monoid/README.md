@@ -7,6 +7,11 @@
 ### op( a , b )
 > 集合Sの任意の元 a , b , c に対し op( a , op ( b , c ) ) = op( op ( a , b ) , c ) を満たすopを定義
 
+### 具体例
+
+集合　S = ( 1 、　3 、　5 ) <br>
+
+
 ### 実装例（加算）
 ```
 class AddMonoid implements Monoid<Integer> {
