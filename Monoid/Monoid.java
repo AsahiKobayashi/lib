@@ -1,7 +1,7 @@
-interface Monoid<T> {
+interface Monoid<S> {
 
-    T e();
+    S e();
 
-    T op(T a, T b);
+    S op(S a, S b);
 
 }
