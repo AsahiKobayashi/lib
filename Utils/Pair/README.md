@@ -7,10 +7,10 @@
 #### メソッド
 |修飾子|型|メソッド|説明|計算量|
 |:---:|:---:|:---:|:---:|:---:|
-|`public`|`F`|**`getFirst`**||O(1)|
-|`public`|`S`|**`getSecond`**||O(1)|
-|`public`|`void`|**`setFirst`**||O(1)|
-|`public`|`void`|**`setSecond`**||O(1)|
+|`public`|`F`|**`getFirst`**||O( 1 )|
+|`public`|`S`|**`getSecond`**||O( 1 )|
+|`public`|`void`|**`setFirst`**||O( 1 )|
+|`public`|`void`|**`setSecond`**||O( 1 )|
 > ### 比較方法
 |比較方法|演算子|判定基準|
 |:---:|:---:|:---:|
