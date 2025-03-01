@@ -29,6 +29,6 @@
 |`public`|`void`|**`add(E e)`**|このオブジェクトに変数eを追加します。|O ( 1 )|
 |`public`|`void`|**`add(E e,long amount)`**|このオブジェクトに変数eを指定した個数分、追加します。      |O ( 1 )|
 |`public`|`void`|**`remove(E e)`**|このオブジェクトの変数eを削除します。|O ( 1 )|
-|`public`|`void`|**`remove(E e,long amount)`**|このオブジェクトの変数eを指定した個数分、削除します。|O ( 1 )|
+|`public`|`void`<pre>|**`remove(E e,long amount)`**</pre>|このオブジェクトの変数eを指定した個数分、削除します。|O ( 1 )|
 |`public`|`boolean`|<pre>**`contains(E e)`**</pre>|このオブジェクトに変数eが含まれるか返します。|O ( 1 )|
 |`public`|`Set<E>`|**`keySet()`**|このオブジェクトの要素をSetで返します。|O ( N )|
