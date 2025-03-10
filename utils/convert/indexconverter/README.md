@@ -1,4 +1,4 @@
-# ConvertIndex
+# IndexConverter
 ## 一次元 ⇔ 二次元　インデックス相互変換
 
 > ### メソッド
