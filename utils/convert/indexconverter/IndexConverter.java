@@ -1,4 +1,4 @@
-record ConvertIndex(int h , int w) {
+record IndexConverter(int h , int w) {
     
     public final int toDim1(final int i , final int j) {
         return i * w + j ;
