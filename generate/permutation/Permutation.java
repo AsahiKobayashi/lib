@@ -34,12 +34,7 @@ class Permutation<T> {
         array[r] = tmp;
     }
 
-    /**
-     * 順列を生成します
-     * @param array 
-     * @return
-     */
-    private static boolean nextPermutation(int [] array) {
+    public static boolean nextPermutation(int [] array) {
         if (array == null) return false;
         for (int change = array.length - 2; change >= 0; --change) {
             if (array[change] < array[change + 1]) {
